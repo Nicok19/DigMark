@@ -1,0 +1,56 @@
+.menuElements{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.menuElements h1 {
+    color: var(--color-primary);
+  }
+
+nav ul {
+    display: flex; 
+  }
+  
+  nav li {
+    margin-right: 40px; 
+  }
+  
+  
+  nav a {
+    text-decoration: none; 
+    color: var(--color-secundary);
+    font-weight: ligth; 
+    font-size: 16px;
+  }
+  
+
+  nav a:hover {
+    text-decoration: none; 
+    color: var(--color-primary);
+    font-weight: bold; 
+    font-size: 16px;
+  }
+
+
+.BookCall{
+border-radius: 70PX;
+background-color: var(--color-primary);
+color: white;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 24px;
+padding-right: 24px;
+border: none;
+font-size: 16px;
+font-style: normal;
+}
+  
+.BookCall:hover{
+    border-radius: 70PX;
+    background-color: var(--color-secundary);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    }
+      
