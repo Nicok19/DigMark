@@ -1,0 +1,56 @@
+
+.elementsCards{
+margin-top: 130px;
+
+}
+
+.TextAbout h1{
+font-size: 50px;
+font-weight: 550;
+;
+}
+
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .customCard {
+    width: calc(50% - 10px); /* Ancho del 50% menos el espacio entre las tarjetas */
+   
+    display: flex; /* Establecer como contenedor flexible */
+    align-items: center; /* Centrar verticalmente los elementos */
+  }
+  
+  .imgCard {
+    width: 15%; /* Ancho de la imagen */
+  }
+  
+  .imgCard img {
+    margin-top: 40px;
+    width: 100%; 
+    height: auto; 
+    border-top-left-radius: 8px; 
+    border-bottom-left-radius: 8px; 
+  }
+  
+  .cardbody {
+    flex: 1; /* La sección del cuerpo de la tarjeta ocupa todo el espacio restante */
+    padding: 20px; /* Espaciado interno para el cuerpo de la tarjeta */
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+  
+  .cardTitle {
+    font-size: 26px; /* Tamaño de fuente para el título */
+    margin-bottom: 10px;
+    font-weight: 400; /* Espacio inferior para el título */
+  }
+  
+  .cardText {
+    font-size: 16px; /* Tamaño de fuente para el texto */
+  }
+  

@@ -1,0 +1,29 @@
+
+.MainBothElements{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.HelpTo{
+width: 50%;
+}
+
+.HelpTo h1{
+font-weight: 400;
+font-size: 70px;
+line-height: 0.9;
+}
+
+.PhotosMain{
+    width: 50%;
+    height: 300px;;
+}
+
+.textChange{
+color:var(--color-primary);
+font-size: 60px;
+font-weight: 700;
+
+}
