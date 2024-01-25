@@ -8,8 +8,6 @@
 
 .HelpTo{
 width: 50%;
-
-height: 300px;
 }
 
 .HelpTo h1{
@@ -20,12 +18,11 @@ line-height: 0.9;
 
 .PhotosMain{
     width: 50%;
-    background-color:red;
     height: 300px;;
 }
 
 .textChange{
-color: blue;
+color:var(--color-primary);
 font-size: 60px;
 font-weight: 700;
 

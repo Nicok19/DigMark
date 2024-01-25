@@ -1,14 +1,13 @@
 import React from "react";
 
+
 const ImageSection = () => {
+  return (
+    <div>
+<h1>Here will be the images</h1>
 
-
-
-    return (
-        <div>
-            <h1>image section</h1>
-        </div>
-    )
+    </div>)
 }
 
 export default ImageSection;
+

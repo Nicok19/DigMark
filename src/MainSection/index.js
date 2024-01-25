@@ -1,6 +1,6 @@
 import React from 'react';
 import './MainSectionStyles.css';
-import ImageSection from './ImagesMainSection'; 
+import ImageSection from './ImagesMainSection';
 import ChangeWords from './ChangeWords'; 
 
 
