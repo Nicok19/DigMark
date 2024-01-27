@@ -3,6 +3,7 @@ import './App.css';
 import Menu from './Header';
 import FirstSection from './MainSection';
 import AboutUs from './AboutUs';
+import Results from './Results';
 
 
 
@@ -12,6 +13,7 @@ function App() {
      <Menu/>
      <FirstSection/>
      <AboutUs/>
+     <Results/>
      
 
     </div>

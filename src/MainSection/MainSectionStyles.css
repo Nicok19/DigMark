@@ -8,11 +8,12 @@
 
 .HelpTo{
 width: 50%;
+margin-top: 60px;
 }
 
 .HelpTo h1{
 font-weight: 400;
-font-size: 70px;
+font-size: 100px;
 line-height: 0.9;
 }
 
@@ -23,7 +24,162 @@ line-height: 0.9;
 
 .textChange{
 color:var(--color-primary);
-font-size: 60px;
+font-size: 80px;
 font-weight: 700;
+}
+
+.ImagesElements img{
+width: 43%;
+}
+
+.ImagesElements{
+    display: flex;
+    flex-wrap: wrap; /* Envolver elementos a la siguiente fila */
+    align-items: center;
+}
+
+
+.topRigthPhoto{
+    animation-name: upToBotton; 
+    animation-duration: 1s; 
+    animation-timing-function: ease; 
+    animation-iteration-count: 1;
+}
+
+
+.MidleRigthPhoto{
+    animation-name: moveRight; 
+    animation-duration: 2.5s; 
+    animation-timing-function: ease; 
+    animation-iteration-count: 1;
 
 }
+
+
+.DownLeftPhoto{
+    animation-name: BottonToUp; 
+    animation-duration: 2.5s; 
+    animation-timing-function: ease; 
+    animation-iteration-count: 1;
+
+}
+
+.cicleOne img{
+padding-left: 65px;
+padding-top: 65px;
+width: 130px;
+opacity: 0.5;
+}
+
+
+    
+.cicleTwoo img{
+    padding-left: 35px;
+    padding-top: 65px;
+    width: 160px;
+    opacity: 0.5;
+    }
+
+
+.cicleTrhee img{
+      margin-top: 60px;
+      padding-left: 70px;
+      width: 130px;
+      opacity: 0.5;
+      
+      }
+      
+      .cicleOne{
+        width: 201px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 119.5px;
+        background: linear-gradient(0deg, #3461FF 0%, #3461FF 100%), #000;
+        margin-left: 20px;
+        animation-name: moveRight; 
+        animation-duration: 1.5s; 
+        animation-timing-function: ease; 
+        animation-iteration-count: 1;
+        
+        }
+
+        
+
+.cicleTwoo{
+    border-radius: 119.5px;
+    background: #5D34FF;
+    width: 201.758px;
+    height: 159.062px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    animation-name: moveRightTwoo; 
+animation-duration: 2s; 
+animation-timing-function: ease; 
+animation-iteration-count: 1;
+
+}
+
+.cicleTrhee{
+width: 200px;
+height: 290px;
+flex-shrink: 0;
+border-radius: 119.5px;
+background: #5D34FF;
+margin-left: 20px;
+display: flex;
+flex-direction: column;
+}
+
+
+.cicleOne img:hover{
+  opacity: 1;
+  }
+
+  .cicleTwoo img:hover{
+      opacity: 1;
+      
+      }
+
+      .cicleTrhee img:hover{
+          opacity: 1;
+          
+          }
+
+@keyframes moveRight {
+    0% {
+      transform: translateX(400px); 
+    }
+    100% {
+      transform: translateX(0px); 
+    }
+  }
+
+
+
+  @keyframes moveRightTwoo {
+    0% {
+      transform: translateX(800px); 
+    }
+    100% {
+      transform: translateX(0px); 
+    }
+  }
+
+
+  @keyframes upToBotton {
+    0% {
+      transform: translateY(-400px); 
+    }
+    100% {
+      transform: translateY(0px); 
+    }
+  }
+
+  @keyframes BottonToUp {
+    0% {
+      transform: translateY(400px); 
+    }
+    100% {
+      transform: translateY(0px); 
+    }
+  }
