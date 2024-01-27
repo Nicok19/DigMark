@@ -17,9 +17,9 @@ const ChangeWords = () => {
       });
     }, 500);
 
-    // Limpia el intervalo cuando el componente se desmonta o cuando se actualiza currentIndex
+    
     return () => clearInterval(interval);
-  }, [currentIndex]); // Dependencia actualizada
+  }, [currentIndex]); 
 
   return <div className='textChange'>{text}</div>;
 };

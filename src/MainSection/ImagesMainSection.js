@@ -1,13 +1,30 @@
-import React from "react";
+import React from 'react';
 
-
-const ImageSection = () => {
+function imageSection() {
   return (
-    <div>
-<h1>Here will be the images</h1>
+    <div className="ImagesElements">
+      
+      <img src="/Elements/topRigthPhoto.png" className='topRigthPhoto' alt=" Photography of a group of people working" />
+      <div className='cicleOne'>
+      <img src="/Elements/instagramLogo.png"  alt="Instagram Logo" />
+      </div>
+      <div className='cicleTwoo'>
+      <img src="/Elements/youtubeLogo.png"  alt="YoutubeLogo" />
 
-    </div>)
+      </div>
+      <img src="/Elements/MidleRigthPhoto.png" className='MidleRigthPhoto' alt="Photography of a girl with a tablet" />
+      <img src="/Elements/DownLeftPhoto.png" className='DownLeftPhoto' alt="Photography of a girl jumping from a cellphone" />
+      <div className='cicleTrhee'>
+
+      <img src="/Elements/XLogo.png"  alt="xlogo Logo" />
+      <img src="/Elements/linkedinLogo.png"  alt="Linkedin Logo" />
+      </div>
+      
+  
+    </div>
+  );
 }
 
-export default ImageSection;
+export default imageSection;
+
 
