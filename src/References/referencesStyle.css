@@ -1,0 +1,115 @@
+.ObjectCard{
+display: flex;
+align-items: center;
+}
+
+.cardImg img {
+   width: 200px; 
+   margin-right: 50px;
+}
+
+.cardText h2 {
+font-size: 30px;
+margin-bottom: 10px;
+font-weight: 700;
+}
+
+.cardText h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    }
+
+#nextButton{
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:var(--color-primary);
+    color: white;
+    border: none;
+    margin-right: 5px;
+    float: inline-end;
+
+}
+
+#nextButton:hover{
+ color: #3561FF;
+ background-color: white;
+ border: #3561FF 1px solid;
+}
+
+.CarrouselsDiv > h2{
+    font-size: 50px;
+    font-weight: 550;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+
+.BookACall{
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 32px;
+background: #3561FF;
+margin-top: 100px;
+padding: 80px;
+
+}
+
+.elevateText{
+width: 50%;
+}
+
+.elevateText h2{
+text-align: center;
+color: #FFF;
+font-size: 40px;
+font-weight: 400;
+line-height: 50px; 
+letter-spacing: -1px;
+text-transform: capitalize;
+}
+
+
+.buttonCall p{
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;  
+    margin-bottom: 25px;
+}
+
+.buttonCall button{
+display: flex;
+padding: 16px 48px;
+align-items: flex-start;
+gap: 10px;  
+border-radius: 64px;
+background: #FFF;
+border: none;
+color: #3561FF;
+font-size: bold;
+font-weight: 500;
+}
+
+
+.buttonCall button:hover{
+    display: flex;
+    padding: 16px 48px;
+    align-items: flex-start;
+    gap: 10px;  
+    border-radius: 64px;
+    color: #FFF;
+    border: none;
+    background-color: #3561FF;
+    font-size: bold;
+    font-weight: 500;
+    border: 1px solid white;
+    }
+
+
+.buttonCall{
+    width: 50%;
+}

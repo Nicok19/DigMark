@@ -5,19 +5,24 @@ import FirstSection from './MainSection';
 import AboutUs from './AboutUs';
 import Results from './Results';
 import OurProducts from './OurWork';
-
+import References from './References';
 
 
 function App() {
   return (
     <div>
-     <Menu/>
-    <div id='generalOptions'>
-     <FirstSection/>
-     <AboutUs/>
-     <Results/>
-</div>
-<OurProducts/>
+      <div>
+        <Menu />
+        <div id='generalOptions'>
+          <FirstSection />
+          <AboutUs />
+          <Results />
+        </div>
+        <OurProducts />
+      </div>
+      <div id='generalOptions'>
+        <References />
+      </div>
     </div>
   );
 }
