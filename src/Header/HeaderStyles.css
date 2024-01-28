@@ -1,13 +1,30 @@
-.menuElements{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
+.containerMenuElements{
+  position: fixed;
+  width: 100%; 
+  background-color: #ffffff; 
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid var(--color-primary);
+  z-index: 1500;
+  top: 0; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.menuElements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Changed from space-between to center */
+  width: 75%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+
 
 .menuElements h1 {
     color: var(--color-primary);
   }
+
 
 nav ul {
     display: flex; 

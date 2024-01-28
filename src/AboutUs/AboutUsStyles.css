@@ -7,7 +7,13 @@ margin-top: 460px;
 .TextAbout h1{
 font-size: 50px;
 font-weight: 550;
+margin-bottom: 15px
 ;
+}
+
+.TextAbout{
+margin-bottom: 50px;
+
 }
 
 
@@ -19,14 +25,14 @@ font-weight: 550;
   }
   
   .customCard {
-    width: calc(50% - 10px); /* Ancho del 50% menos el espacio entre las tarjetas */
+    width: calc(50% - 10px); 
    
-    display: flex; /* Establecer como contenedor flexible */
-    align-items: center; /* Centrar verticalmente los elementos */
+    display: flex; 
+    align-items: center; 
   }
   
   .imgCard {
-    width: 15%; /* Ancho de la imagen */
+    width: 15%; 
   }
   
   .imgCard img {
@@ -38,19 +44,19 @@ font-weight: 550;
   }
   
   .cardbody {
-    flex: 1; /* La sección del cuerpo de la tarjeta ocupa todo el espacio restante */
-    padding: 20px; /* Espaciado interno para el cuerpo de la tarjeta */
+    flex: 1; 
+    padding: 20px; 
     padding-bottom: 0px;
     padding-top: 10px;
   }
   
   .cardTitle {
-    font-size: 26px; /* Tamaño de fuente para el título */
+    font-size: 20px; 
     margin-bottom: 10px;
-    font-weight: 400; /* Espacio inferior para el título */
+    font-weight: 400; 
   }
   
   .cardText {
-    font-size: 16px; /* Tamaño de fuente para el texto */
+    font-size: 14px; 
   }
   

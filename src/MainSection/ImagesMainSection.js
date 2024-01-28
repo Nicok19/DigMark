@@ -9,7 +9,7 @@ function imageSection() {
       <img src="/Elements/instagramLogo.png"  alt="Instagram Logo" />
       </div>
       <div className='cicleTwoo'>
-      <img src="/Elements/youtubeLogo.png"  alt="YoutubeLogo" />
+      <img src="/Elements/youtubeLogo.png"  alt="Youtube Logo" />
 
       </div>
       <img src="/Elements/MidleRigthPhoto.png" className='MidleRigthPhoto' alt="Photography of a girl with a tablet" />

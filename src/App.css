@@ -1,5 +1,5 @@
-.generalOptions{
-width: 1240px;
+#generalOptions{
+width: 75%;
 margin: auto;
 }
 
@@ -10,9 +10,10 @@ margin: auto;
   
 
 *{
-font-family: 'arial', sans-serif;
+font-family: "Roboto", sans-serif;
 text-decoration: none;
 list-style: none;
 box-sizing: border-box;
 padding: 0px;
+margin: 0px;
 }

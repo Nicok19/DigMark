@@ -8,7 +8,7 @@ function Counter({ maxCount }) {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       
-      if (scrollPosition >= 900) {
+      if (scrollPosition >= 500) {
         setIsInView(true);
       }
     };
@@ -25,26 +25,25 @@ function Counter({ maxCount }) {
         } else {
           clearInterval(interval);
         }
-      }, 1000);
+      }, 80);
 
       return () => clearInterval(interval);
     }
   }, [count, maxCount, isInView]);
 
   return (
-    <div id="counterSection" style={{ marginTop: '100vh' }}>
-      <h2>Contador hasta {maxCount}:</h2>
-      <h1>{count}</h1>
+    <div id="counterSection" style={{ marginTop: '10vh' }}>
+      <h1 id ="counterElements">{count}+</h1>
     </div>
   );
 }
 
-function Revenues() {
+function Awards() {
   return (
     <div>
-      <Counter maxCount={125} />
+      <Counter maxCount={24} />
     </div>
   );
 }
 
-export default Revenues;
+export default Awards;
