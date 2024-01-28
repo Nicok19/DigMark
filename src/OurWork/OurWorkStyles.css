@@ -1,0 +1,77 @@
+
+.greyBackground{
+  background-color: #FAFAFA; 
+  padding-bottom: 100px;
+
+
+}
+
+
+#productDescription{
+width: 26%;
+display: flex;
+flex-direction: column;
+align-items: space-between;
+justify-content: space-between;
+}
+
+#productDescription img {
+width: 310px;
+margin-right: 20px;
+}
+
+#productDescription h3 {
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+margin-top: 15px;
+}
+
+#productDescription img:hover {
+ opacity: 0.5;
+    }
+
+.allBrands{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-bottom: 130px;
+}
+
+.definitionOurWork{
+width: 75%;
+margin: auto;
+}
+
+.definitionOurWork h2{
+    font-size: 50px;
+    font-weight: 550;
+    margin-bottom: 15px;
+    padding-top: 84px; 
+    }
+
+.definitionOurWork p{
+margin-bottom: 73px;
+}
+
+
+.pals{
+width: 75%;
+margin: auto;
+margin-bottom: 140px;
+
+}
+.pals img{
+width: 112px;
+margin-right: 100px;
+margin-top: 30px;
+}
+
+.pals h2{
+    margin-top: 95px; 
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 50px;
+    
+    }

@@ -3,29 +3,32 @@
     display: flex;
     flex-direction: row;
     height: 300px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .HelpTo{
 width: 50%;
-margin-top: 60px;
+margin-top: 120px;
 }
 
 .HelpTo h1{
 font-weight: 400;
 font-size: 100px;
-line-height: 0.9;
+
 }
 
 .PhotosMain{
     width: 50%;
-    height: 300px;;
+    height: 300px;
+    margin-top: 30px;
 }
 
 .textChange{
 color:var(--color-primary);
-font-size: 80px;
+font-size: 70px;
 font-weight: 700;
+margin-top: 30px;
+font-weight: 500;
 }
 
 .ImagesElements img{
