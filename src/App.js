@@ -6,6 +6,7 @@ import AboutUs from './AboutUs';
 import Results from './Results';
 import OurProducts from './OurWork';
 import References from './References';
+import Contact from './ContactUs';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       </div>
       <div id='generalOptions'>
         <References />
+        <Contact/>
       </div>
     </div>
   );
