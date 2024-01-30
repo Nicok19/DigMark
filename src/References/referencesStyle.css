@@ -35,11 +35,7 @@ font-weight: 700;
 
 }
 
-#nextButton:hover{
- color: #3561FF;
- background-color: white;
- border: #3561FF 1px solid;
-}
+
 
 .CarrouselsDiv > h2{
     font-size: 50px;
@@ -48,7 +44,7 @@ font-weight: 700;
     margin-top: 100px;
 }
 
-.BookACall{
+.cardCall{
     display: flex;
     flex-shrink: 0;
     border-radius: 32px;
@@ -79,37 +75,11 @@ text-transform: capitalize;
     font-style: normal;
     font-weight: 200;  
     margin-bottom: 25px;
+    margin-top: 40px;
 }
-
-.buttonCall button{
-display: flex;
-padding: 16px 48px;
-align-items: flex-start;
-gap: 10px;  
-border-radius: 64px;
-background: #FFF;
-border: none;
-color: #3561FF;
-font-size: bold;
-font-weight: 500;
-}
-
-
-.buttonCall button:hover{
-    display: flex;
-    padding: 16px 48px;
-    align-items: flex-start;
-    gap: 10px;  
-    border-radius: 64px;
-    color: #FFF;
-    border: none;
-    background-color: #3561FF;
-    font-size: bold;
-    font-weight: 500;
-    border: 1px solid white;
-    }
-
 
 .buttonCall{
     width: 50%;
 }
+
+
