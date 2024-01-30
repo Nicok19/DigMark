@@ -1,5 +1,7 @@
 import React from "react";
 import CardCarousel from "./cardReferences";
+import Popup from "../Modals";
+
 import './referencesStyle.css';
 
 
@@ -13,7 +15,7 @@ const References = () =>{
             <CardCarousel />
         </div>
 
-        <div className="BookACall">
+        <div className="cardCall">
 
         <div className="elevateText">
 <h2>Elevate your <br/>brand Today!</h2>
@@ -21,7 +23,6 @@ const References = () =>{
 
 <div className="buttonCall">
 <p>Ready to transform your digital dresence? <br/> Let's create  magic together! book our services now!</p>
-<button>Book Call</button>
 </div>
 
         </div>
