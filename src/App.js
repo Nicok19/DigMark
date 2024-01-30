@@ -7,10 +7,6 @@ import Results from './Results';
 import OurProducts from './OurWork';
 import References from './References';
 import Contact from './ContactUs';
-import Footer from './Footer/Index';
-
-
-
 
 
 function App() {
@@ -28,11 +24,6 @@ function App() {
       <div id='generalOptions'>
         <References />
         <Contact/>
-      </div>
-
-      <div>
-
-        <Footer/>
       </div>
     </div>
   );
