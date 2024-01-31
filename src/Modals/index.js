@@ -20,7 +20,7 @@ const Popup = () => {
             <div className="popupContent">
 
               <div className='imgPopUp'> 
-                <button onClick={togglePopup}>Close</button>
+                <button onClick={togglePopup}>X</button>
                 <img src="/Elements/modalContact.jpg"  alt="Instagram Logo" />
               </div>
 

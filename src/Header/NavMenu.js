@@ -1,23 +1,22 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const NavMenu = () => {
-  const menuItems = [
-    { id: 1, title: 'About Us', link: '/' },
-    { id: 2, title: 'Our Work', link: '/about' },
-    { id: 3, title: 'References', link: '/services' },
-    { id: 4, title: 'Contact Us', link: '/contact' },
-  ];
-
   return (
-    <nav>
-      <ul>
-        {menuItems.map((item) => (
-          <li key={item.id}>
-            <a href={item.link}>{item.title}</a>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <div className='scrollElements'>
+      <Link to='aboutUs' spy={true} smooth={true} offset={-70} duration={500}>
+        About Us
+      </Link>
+      <Link to='ourProducts' spy={true} smooth={true} offset={-70} duration={500}>
+        Our Products
+      </Link>
+      <Link to='references' spy={true} smooth={true} offset={-70} duration={500}>
+        References
+      </Link>
+      <Link to='contact' spy={true} smooth={true} offset={-70} duration={500}>
+        Contact Us
+      </Link>
+    </div>
   );
 };
 

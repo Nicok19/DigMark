@@ -1,7 +1,5 @@
 import React from "react";
 import CardCarousel from "./cardReferences";
-import Popup from "../Modals";
-
 import './referencesStyle.css';
 
 
