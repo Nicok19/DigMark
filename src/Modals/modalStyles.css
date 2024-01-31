@@ -53,6 +53,19 @@ border-radius: 13px 0 0 13px;
     box-shadow: 5px 5px 10px black;
   }
 
+
+
+  .imgPopUp button:hover{
+    background-color: #3461FF;
+    color: white;
+  }
+
+  .imgPopUp button:active{
+    background-color: black;
+    color: white;
+  }
+
+
   .inputPopUp >label >input {
  display: inline-block;
  margin-bottom: 5px;

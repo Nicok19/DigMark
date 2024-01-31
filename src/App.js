@@ -8,28 +8,46 @@ import OurProducts from './OurWork';
 import References from './References';
 import Contact from './ContactUs';
 import Footer from './Footer/Index';
+<<<<<<< HEAD
+=======
 
+>>>>>>> 18427adffdb6414c96c232e0990bb399399554ed
 
 function App() {
   return (
     <div>
-      <div>
-        <Menu />
-        <div id='generalOptions'>
-          <FirstSection />
+      <Menu />
+      <div id='generalOptions'>
+        <FirstSection />
+        <div id='aboutUs'>
           <AboutUs />
+        </div>
+        <div id='results'>
           <Results />
         </div>
-        <OurProducts />
+      
       </div>
+      
+      <div id='ourProducts'>
+          <OurProducts />
+        </div>
+        
       <div id='generalOptions'>
-        <References />
-        <Contact/>
+        <div id='references'>
+          <References />
+        </div>
+        <div id='contact'>
+          <Contact/>
+        </div>
       </div>
 
+<<<<<<< HEAD
+      <Footer/>
+=======
       <div>
         <Footer/>
       </div>
+>>>>>>> 18427adffdb6414c96c232e0990bb399399554ed
     </div>
   );
 }

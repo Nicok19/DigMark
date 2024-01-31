@@ -1,4 +1,4 @@
-.containerMenuElements{
+.containerMenuElements {
   position: fixed;
   width: 100%; 
   background-color: #ffffff; 
@@ -13,39 +13,79 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; /* Changed from space-between to center */
+  align-items: center; 
   width: 75%;
   margin: auto;
   padding-top: 10px;
 }
 
-
+.scrollElements {
+  cursor: pointer;
+}
 
 .menuElements h1 {
-    color: var(--color-primary);
-  }
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.menuElements a {
+  margin-right: 15px;
+}
+
+.menuElements a:hover {
+  text-decoration: none; 
+  color: var(--color-primary);
+  font-weight: bold; 
+  font-size: 16px;
+}
+
+/* Estilos generales */
+.scrollElements {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para el icono de hamburguesa */
+.hamburger-icon {
+  display: none; /* Ocultar el icono en pantallas grandes */
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+}
 
 
-nav ul {
-    display: flex; 
+@media only screen and (max-width: 768px) {
+  .hamburger-icon {
+    display: block; 
   }
-  
-  nav li {
-    margin-right: 40px; 
+
+  .menu-items {
+    display: none; 
+    flex-direction: column; 
+    background-color: #fff; 
+    position: absolute; 
+    top: 60px; 
+    left: 0;
+    right: 0;
+    padding: 20px;
   }
+
   
-  
-  nav a {
-    text-decoration: none; 
-    color: var(--color-secundary);
-    font-weight: ligth; 
-    font-size: 16px;
+  .scrollElements.open .menu-items {
+    display: flex;
   }
+}
+
+
+
+
   
 
-  nav a:hover {
-    text-decoration: none; 
-    color: var(--color-primary);
-    font-weight: bold; 
-    font-size: 16px;
-  }
+
+
+
