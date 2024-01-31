@@ -9,7 +9,6 @@ import References from './References';
 import Contact from './ContactUs';
 import Footer from './Footer/Index';
 
-
 function App() {
   return (
     <div>
@@ -22,23 +21,23 @@ function App() {
         <div id='results'>
           <Results />
         </div>
+      
       </div>
+      
       <div id='ourProducts'>
-        <OurProducts />
-      </div>
-
-
+          <OurProducts />
+        </div>
+        
       <div id='generalOptions'>
+        <div id='references'>
+          <References />
+        </div>
+        <div id='contact'>
+          <Contact/>
+        </div>
+      </div>
 
-      <div id='references'>
-        <References />
-      </div>
-      <div id='contact'>
-        <Contact/>
-      </div>
-      </div>
-      <Footer />
-    
+      <Footer/>
     </div>
   );
 }
