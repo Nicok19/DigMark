@@ -4,6 +4,7 @@
     flex-direction: row;
     height: 300px;
     margin-top: 70px;
+   
 }
 
 .HelpTo{
@@ -53,8 +54,6 @@ margin-bottom: 15px;
     animation-duration: 1s; 
     animation-timing-function: ease; 
     animation-iteration-count: 1;
- 
-    
 }
 
 
@@ -63,8 +62,6 @@ margin-bottom: 15px;
     animation-duration: 2.5s; 
     animation-timing-function: ease; 
     animation-iteration-count: 1;
-
-
 }
 
 
@@ -91,7 +88,7 @@ height: 200px;
   animation-duration: 1.5s; 
   animation-timing-function: ease; 
   animation-iteration-count: 1;
-  
+
   }
 
 .cicleOne a{
@@ -101,7 +98,6 @@ height: 200px;
 .cicleOne img{
 width: 80px;
 opacity: 0.5;
-
 }
 
 
@@ -147,7 +143,6 @@ align-items: center;
       width: 70px;
       opacity: 0.5;
       margin-right: 5px;
-      
       }
       
 
@@ -205,3 +200,88 @@ align-items: center;
       transform: translateY(0px); 
     }
   }
+
+  /* Phone */
+@media only screen and (max-width: 768px) {
+
+  .MainBothElements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    height: 300px;
+    margin-top: 70px;
+}
+
+.HelpTo{
+  width: 100%;
+  margin-top: 40px;
+  height: 250px;
+}
+
+.HelpTo h1{
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  
+  }
+  
+  .textChange{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #line{
+width: 100%;
+display: flex;
+margin-right: 0px;
+justify-content: center;
+  }
+  .PhotosMain{
+width: 100%;
+  }
+
+  .ImagesElements{
+    width: 100%;
+  }
+  .MainBothElements{
+    margin-bottom: 600px;
+  }
+
+  .topRigthPhoto{
+   width: 150px;
+   height: 150px;
+}
+
+.cicleOne{
+  width: 150px;
+  height: 150px;
+}
+
+
+.MidleRigthPhoto{
+  width: 150px;
+  height: 150px;
+}
+
+.cicleTwoo{
+  width: 150px;
+  height: 150px;
+}
+
+
+.DownLeftPhoto{
+  width: 150px;
+height: 150px;
+}
+
+.cicleTrhee{
+  width: 150px;
+  height: 150px;
+}
+
+.cicleTrhee img{
+  width: 45px;
+}
+
+}

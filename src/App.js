@@ -8,10 +8,8 @@ import OurProducts from './OurWork';
 import References from './References';
 import Contact from './ContactUs';
 import Footer from './Footer/Index';
-<<<<<<< HEAD
-=======
 
->>>>>>> 18427adffdb6414c96c232e0990bb399399554ed
+
 
 function App() {
   return (
@@ -40,14 +38,7 @@ function App() {
           <Contact/>
         </div>
       </div>
-
-<<<<<<< HEAD
       <Footer/>
-=======
-      <div>
-        <Footer/>
-      </div>
->>>>>>> 18427adffdb6414c96c232e0990bb399399554ed
     </div>
   );
 }

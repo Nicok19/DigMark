@@ -81,4 +81,30 @@ width: 100%;
 }
 
 
+ /* Phone */
+ @media only screen and (max-width: 768px) {
 
+.photoContact {
+    width: 0px;
+ }
+
+ .contactForm {
+    width: 100%;}
+
+.contactPhotoAndForm{
+width: 100%;
+}
+
+.contactElements {
+    margin-bottom: 70px;
+}
+
+.contactElements h2{
+    font-size: 30px;
+    font-weight: 550;
+    margin-bottom: 15px;
+    text-align: center;  
+}
+
+
+}
