@@ -142,7 +142,10 @@ height: 150px;
   width: 45px;
 }
 
-}  /* Phone */
+}
+
+
+/* Tablet */
 @media only screen and (max-width: 768px) {
   .elementsCards{
     margin-top: 100px;

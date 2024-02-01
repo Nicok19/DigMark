@@ -152,7 +152,7 @@ padding: 20px;
       }
 
 
-      /* Phone */
+      /* Tablet */
 @media only screen and (max-width: 768px) {
 
   .BookCall{
@@ -213,7 +213,34 @@ padding: 20px;
             font-size: 13px;
                   }
 
+}
 
+@media only screen and (min-width: 768px) and (max-width: 915px) {
+
+  .BookCall{
+    border-radius: 70PX;
+    background-color: var(--color-primary);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: none;
+    font-size: 14px;
+    font-style: normal;
+  
+    }
+
+    .BookCall:hover{
+      border-radius: 70PX;
+      background-color: var(--color-secundary);
+      color: var(--color-primary);
+      border: 1px solid var(--color-primary);
+      }
+
+      .imgPopUp{
+        width: 3px;
+      }
 }
 
       

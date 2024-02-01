@@ -36,7 +36,7 @@ font-weight: normal;
 
 }
 
-  /* Phone */
+  /* Tablet */
   @media only screen and (max-width: 768px) {
     .PhaderCounterText{
       margin-bottom: 100px;

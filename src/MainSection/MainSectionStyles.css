@@ -201,7 +201,7 @@ align-items: center;
     }
   }
 
-  /* Phone */
+  /* Tablet */
 @media only screen and (max-width: 768px) {
 
   .MainBothElements {
@@ -285,3 +285,29 @@ height: 150px;
 }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 915px) {
+
+  .MainBothElements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 850px;
+}
+
+.HelpTo{
+  width: 100%;
+  margin-top: 40px;
+  height: 250px;
+  margin-bottom: 130px;
+}
+
+.PhotosMain{
+  width: 100%;
+}
+
+}
+
