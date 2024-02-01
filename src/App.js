@@ -10,7 +10,6 @@ import Contact from './ContactUs';
 import Footer from './Footer/Index';
 
 
-
 function App() {
   return (
     <div>
@@ -23,7 +22,6 @@ function App() {
         <div id='results'>
           <Results />
         </div>
-      
       </div>
       
       <div id='ourProducts'>

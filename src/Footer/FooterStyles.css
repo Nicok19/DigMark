@@ -69,6 +69,7 @@ background-color: #3461FF;
    font-size: 13px;
 }
 
+/*Tablet*/
 @media only screen and (max-width: 768px){
 
 .PhaderElement{
@@ -76,7 +77,6 @@ background-color: #3461FF;
    flex-direction: row;
    flex-wrap: wrap;
 }
-
 
 .socialMedia{
     width: 100%;
@@ -114,5 +114,5 @@ background-color: #3461FF;
 text-align: center;
 }
 
-
 }
+

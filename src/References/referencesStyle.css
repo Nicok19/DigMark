@@ -96,7 +96,7 @@ text-transform: capitalize;
     width: 50%;
 }
 
-      /* Phone */
+      /* Tablet */
       @media only screen and (max-width: 768px) {
     
             .cardImg img {
