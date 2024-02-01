@@ -39,26 +39,26 @@
   font-size: 16px;
 }
 
-/* Estilos generales */
+
 .scrollElements {
   display: flex;
   align-items: center;
 }
 
-/* Estilos para el icono de hamburguesa */
+
 .hamburger-icon {
-  display: none; /* Ocultar el icono en pantallas grandes */
+  display: none; 
   cursor: pointer;
 }
 
 .line {
   width: 25px;
-  height: 3px;
+  height: 4px;
   background-color: #333;
   margin: 6px 0;
 }
 
-
+/* Phone */
 @media only screen and (max-width: 768px) {
   .hamburger-icon {
     display: block; 
@@ -78,7 +78,31 @@
   
   .scrollElements.open .menu-items {
     display: flex;
+
   }
+
+  .buttonComeBack{
+    font-size: 20px;
+  }
+
+  .menuElements a {
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 23px;
+  }
+  
+  .menuElements a:active {
+    color: black;
+    font-weight: bold; 
+    font-size: 25px;
+  }
+  
+ 
+
+
+
+
+
 }
 
 

@@ -9,7 +9,7 @@ const ScrollToTop = () => {
   };
 
   return (
-    <h1 onClick={scrollToTop}>DigMark</h1>
+    <h1  className = "buttonComeBack" onClick={scrollToTop}>DigMark</h1>
   );
 };
 
