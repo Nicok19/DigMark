@@ -1,11 +1,7 @@
 
 .PhaderCounterText{
 margin-bottom: 160px;
-
-
 }
-
-
 
 #counterDiv{
     width: 25%;  
@@ -16,7 +12,6 @@ margin-bottom: 160px;
    font-size: 20px;
    margin-top: 7px;
 }
-
 
 
 .allCounters{
@@ -65,3 +60,6 @@ font-weight: normal;
     }
   
   }
+
+
+  

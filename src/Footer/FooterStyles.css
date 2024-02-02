@@ -116,3 +116,49 @@ text-align: center;
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 915px) {
+
+    .PhaderElement{
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .socialMedia{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .linkElements{
+      display: flex,;
+      flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    
+    #links{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #links a{
+        font-size: 12px;
+        text-align: center;  
+    }
+      
+    
+    .socialMedia img{
+        margin-bottom: 40px;
+    }
+    
+    .socialMedia h4{
+        margin-top: 60px;
+    }
+    
+    .textBottonFooter p{
+    text-align: center;
+    }
+  }
+  
+
