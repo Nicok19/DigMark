@@ -1,6 +1,8 @@
 import React from "react";
 import NavMenu from "./NavMenu";
 import './HeaderStyles.css';
+import Popup from "../Modals";
+import ScrollToTop from "./ScrollUp";
 
 const Menu = () => {
   return (
@@ -8,9 +10,10 @@ const Menu = () => {
 
     <div className="containerMenuElements">
     <div className="menuElements">
-      <h1>DigMark</h1>
-      <NavMenu className ="navMenu"/>
-      <button className="BookCall">Book a call</button>
+      <ScrollToTop/>
+      <NavMenu/>
+      <Popup />
+  
       </div>
     </div>
 

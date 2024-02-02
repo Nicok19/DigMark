@@ -1,25 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const NavMenu = () => {
-  const menuItems = [
-    { id: 1, title: 'About Us', link: '/' },
-    { id: 2, title: 'Our Work', link: '/about' },
-    { id: 3, title: 'References', link: '/services' },
-    { id: 4, title: 'Contact Us', link: '/contact' },
-  ];
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleMenuItemClick = () => {
+    setIsOpen(false); // Cierra el menú cuando se hace clic en un elemento del menú
+  };
 
   return (
-    <nav>
-      <ul>
-        {menuItems.map((item) => (
-          <li key={item.id}>
-            <a href={item.link}>{item.title}</a>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <div className={`scrollElements ${isOpen ? 'open' : ''}`}>
+      <div className="hamburger-icon" onClick={toggleMenu}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
+      <div className="menu-items">
+        <Link to='aboutUs' spy={true} smooth={true} offset={-70} duration={500} onClick={handleMenuItemClick}>
+          About Us
+        </Link>
+        <Link to='ourProducts' spy={true} smooth={true} offset={-70} duration={500} onClick={handleMenuItemClick}>
+          Our Products
+        </Link>
+        <Link to='references' spy={true} smooth={true} offset={-70} duration={500} onClick={handleMenuItemClick}>
+          References
+        </Link>
+        <Link to='contact' spy={true} smooth={true} offset={-70} duration={500} onClick={handleMenuItemClick}>
+          Contact Us
+        </Link>
+      </div>
+    </div>
   );
 };
 
 export default NavMenu;
+
 

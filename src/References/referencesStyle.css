@@ -32,14 +32,24 @@ font-weight: 700;
     border: none;
     margin-right: 5px;
     float: inline-end;
-
 }
 
 #nextButton:hover{
- color: #3561FF;
- background-color: white;
- border: #3561FF 1px solid;
+
+    background-color: white;
+    color: #3561FF;
+    border: 1px solid #3561FF;
 }
+
+#nextButton:active{
+
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
 
 .CarrouselsDiv > h2{
     font-size: 50px;
@@ -48,7 +58,7 @@ font-weight: 700;
     margin-top: 100px;
 }
 
-.BookACall{
+.cardCall{
     display: flex;
     flex-shrink: 0;
     border-radius: 32px;
@@ -79,37 +89,144 @@ text-transform: capitalize;
     font-style: normal;
     font-weight: 200;  
     margin-bottom: 25px;
+    margin-top: 40px;
 }
-
-.buttonCall button{
-display: flex;
-padding: 16px 48px;
-align-items: flex-start;
-gap: 10px;  
-border-radius: 64px;
-background: #FFF;
-border: none;
-color: #3561FF;
-font-size: bold;
-font-weight: 500;
-}
-
-
-.buttonCall button:hover{
-    display: flex;
-    padding: 16px 48px;
-    align-items: flex-start;
-    gap: 10px;  
-    border-radius: 64px;
-    color: #FFF;
-    border: none;
-    background-color: #3561FF;
-    font-size: bold;
-    font-weight: 500;
-    border: 1px solid white;
-    }
-
 
 .buttonCall{
     width: 50%;
 }
+
+      /* Tablet */
+      @media only screen and (max-width: 768px) {
+    
+            .cardImg img {
+                width: 100px;
+                margin-right: 20px;
+            }
+            
+            .cardText p{
+                font-size: 12px;
+            }
+            .cardText h2 {
+                font-size: 20px;
+                margin-bottom: 10px;
+                font-weight: 700;
+            }
+            
+            .cardText h3 {
+                font-size: 15px;
+                margin-bottom: 10px;
+                font-weight: 300;
+                }
+            
+            .CarrouselsDiv{
+                margin-bottom:10px ;
+            }
+
+
+            .CarrouselsDiv > h2{
+                font-size: 30px;
+                font-weight: 550;
+                margin-top: 60px;
+                font-size: 30px;
+                font-weight: 550;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            
+            .cardCall{
+                display: flex;
+                flex-shrink: 0;
+                border-radius: 32px;
+            background: #3561FF;
+            margin-top: 100px;
+            padding: 80px;
+            
+            }
+            
+            .elevateText{
+            width: 100%;
+            }
+            
+            .elevateText h2{
+            text-align: center;
+            color: #FFF;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 50px; 
+            letter-spacing: -1px;
+            text-transform: capitalize;
+            }
+            
+            
+            .buttonCall p{
+                color: #FFF;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 200;  
+                margin-bottom: 25px;
+                margin-top: 40px;
+            }
+            
+            .buttonCall{
+                width: 100%;
+            }
+            
+            #nextButton{
+                color: rgba(0, 0, 0, 0.80);
+                font-size: 22px;
+                font-style: normal;
+                font-weight: lighter;
+                padding: 10px;
+                border-radius: 30px;
+                background-color:var(--color-primary);
+                color: white;
+                border: none;
+                float: none;
+                margin-bottom: 20px;
+            }
+             
+            .CarrouselsDiv > h2{
+             margin-bottom: 30px;
+
+            }
+
+            .elevateText h2{
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 22px; 
+                }
+
+            .cardCall{
+            margin-top: 50px;
+            padding: 40px;
+            
+            }
+
+            .buttonCall p{
+                color: #FFF;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 200;  
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+
+            .elevateText{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+
+                
+
+ 
+
+
+
+
+            }
+        
+      
+

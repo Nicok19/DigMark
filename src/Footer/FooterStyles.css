@@ -1,0 +1,164 @@
+
+.phader{
+    background-color: #FAFAFA ;
+}
+.PhaderElement{
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+.socialMedia{
+    width: 50%;
+}
+
+.linkElements{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#links{
+  line-height: 2.5;
+}
+
+#links a {
+    display: block;
+}
+
+
+#links a:hover{
+color: #3461FF;
+cursor: pointer;
+}
+
+.socialMedia h4{
+    color: #3461FF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 36.563px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.59px;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+
+.socialMedia img{
+    width: 28px;
+    margin-right: 22px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.bottonFooter{
+background-color: #3461FF;
+}
+
+.textBottonFooter{
+    width: 75%;
+    margin: auto;
+}
+
+.textBottonFooter p {
+   color: white;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   font-size: 13px;
+}
+
+/*Tablet*/
+@media only screen and (max-width: 768px){
+
+.PhaderElement{
+   display: flex; 
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.socialMedia{
+    width: 100%;
+    text-align: center;
+}
+
+.linkElements{
+  display: flex,;
+  flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+#links{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#links a{
+    font-size: 12px;
+    text-align: center;  
+}
+  
+
+.socialMedia img{
+    margin-bottom: 40px;
+}
+
+.socialMedia h4{
+    margin-top: 60px;
+}
+
+.textBottonFooter p{
+text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 915px) {
+
+    .PhaderElement{
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .socialMedia{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .linkElements{
+      display: flex,;
+      flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    
+    #links{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #links a{
+        font-size: 12px;
+        text-align: center;  
+    }
+      
+    
+    .socialMedia img{
+        margin-bottom: 40px;
+    }
+    
+    .socialMedia h4{
+        margin-top: 60px;
+    }
+    
+    .textBottonFooter p{
+    text-align: center;
+    }
+  }
+  
+

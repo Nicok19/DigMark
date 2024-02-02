@@ -1,10 +1,10 @@
-.containerMenuElements{
+.containerMenuElements {
   position: fixed;
   width: 100%; 
   background-color: #ffffff; 
   padding-bottom: 10px;
   border-bottom: 0.5px solid var(--color-primary);
-  z-index: 1500;
+  z-index: 998;
   top: 0; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -13,61 +13,112 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; /* Changed from space-between to center */
+  align-items: center; 
   width: 75%;
   margin: auto;
   padding-top: 10px;
 }
 
-
+.scrollElements {
+  cursor: pointer;
+}
 
 .menuElements h1 {
-    color: var(--color-primary);
-  }
-
-
-nav ul {
-    display: flex; 
-  }
-  
-  nav li {
-    margin-right: 40px; 
-  }
-  
-  
-  nav a {
-    text-decoration: none; 
-    color: var(--color-secundary);
-    font-weight: ligth; 
-    font-size: 16px;
-  }
-  
-
-  nav a:hover {
-    text-decoration: none; 
-    color: var(--color-primary);
-    font-weight: bold; 
-    font-size: 16px;
-  }
-
-
-.BookCall{
-border-radius: 70PX;
-background-color: var(--color-primary);
-color: white;
-padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 24px;
-padding-right: 24px;
-border: none;
-font-size: 16px;
-font-style: normal;
+  color: var(--color-primary);
+  cursor: pointer;
 }
+
+.menuElements a {
+  margin-right: 15px;
+}
+
+.menuElements a:hover {
+  text-decoration: none; 
+  color: var(--color-primary);
+  font-weight: bold; 
+  font-size: 16px;
+}
+
+
+.scrollElements {
+  display: flex;
+  align-items: center;
+}
+
+
+.hamburger-icon {
+  display: none; 
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 4px;
+  background-color: #333;
+  margin: 6px 0;
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+  .hamburger-icon {
+    display: block; 
+  }
+
+  .menu-items {
+    display: none; 
+    flex-direction: column; 
+    background-color: #fff; 
+    position: absolute; 
+    top: 60px; 
+    left: 0;
+    right: 0;
+    padding: 20px;
+  }
+
   
-.BookCall:hover{
-    border-radius: 70PX;
-    background-color: var(--color-secundary);
-    color: var(--color-primary);
-    border: 1px solid var(--color-primary);
-    }
-      
+  .scrollElements.open .menu-items {
+    display: flex;
+
+  }
+
+  .buttonComeBack{
+    font-size: 20px;
+  }
+
+  .menuElements a {
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 23px;
+  }
+  
+  .menuElements a:active {
+    color: black;
+    font-weight: bold; 
+    font-size: 25px;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 915px) {
+
+
+  .menuElements a {
+    margin-right: 10px;
+    font-size: 13px;
+    margin-top: 23px;
+  }
+  
+  .menuElements a:active {
+    color: black;
+    font-weight: bold; 
+    font-size: 25px;
+  }
+}
+
+
+
+  
+
+
+
+

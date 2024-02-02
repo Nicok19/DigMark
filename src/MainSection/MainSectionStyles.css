@@ -4,6 +4,7 @@
     flex-direction: row;
     height: 300px;
     margin-top: 70px;
+   
 }
 
 .HelpTo{
@@ -37,8 +38,14 @@ width: 43%;
 
 .ImagesElements{
     display: flex;
-    flex-wrap: wrap; /* Envolver elementos a la siguiente fila */
+    flex-wrap: wrap; 
     align-items: center;
+}
+
+#line{
+display: flex;
+flex-direction: row;
+margin-bottom: 15px;
 }
 
 
@@ -55,7 +62,6 @@ width: 43%;
     animation-duration: 2.5s; 
     animation-timing-function: ease; 
     animation-iteration-count: 1;
-
 }
 
 
@@ -64,74 +70,81 @@ width: 43%;
     animation-duration: 2.5s; 
     animation-timing-function: ease; 
     animation-iteration-count: 1;
+    width: 240px;
+height: 200px;
+}
 
+.cicleOne{
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 119.5px;
+  background: linear-gradient(0deg, #3461FF 0%, #3461FF 100%), #000;
+  margin-left: 20px;
+  animation-name: moveRight; 
+  animation-duration: 1.5s; 
+  animation-timing-function: ease; 
+  animation-iteration-count: 1;
+
+  }
+
+.cicleOne a{
+  width: 80px;
 }
 
 .cicleOne img{
-padding-left: 65px;
-padding-top: 65px;
-width: 130px;
+width: 80px;
 opacity: 0.5;
 }
 
 
-    
-.cicleTwoo img{
-    padding-left: 35px;
-    padding-top: 65px;
-    width: 160px;
-    opacity: 0.5;
-    }
-
-
-.cicleTrhee img{
-      margin-top: 60px;
-      padding-left: 70px;
-      width: 130px;
-      opacity: 0.5;
-      
-      }
-      
-      .cicleOne{
-        width: 201px;
-        height: 200px;
-        flex-shrink: 0;
-        border-radius: 119.5px;
-        background: linear-gradient(0deg, #3461FF 0%, #3461FF 100%), #000;
-        margin-left: 20px;
-        animation-name: moveRight; 
-        animation-duration: 1.5s; 
-        animation-timing-function: ease; 
-        animation-iteration-count: 1;
-        
-        }
-
-        
-
 .cicleTwoo{
-    border-radius: 119.5px;
-    background: #5D34FF;
-    width: 201.758px;
-    height: 159.062px;
-    flex-shrink: 0;
-    margin-right: 20px;
-    animation-name: moveRightTwoo; 
+  border-radius: 119.5px;
+  background: #5D34FF;
+  width: 201.758px;
+  height: 159.062px;
+  margin-right: 20px;
+  animation-name: moveRightTwoo; 
 animation-duration: 2s; 
 animation-timing-function: ease; 
 animation-iteration-count: 1;
-
-}
-
-.cicleTrhee{
-width: 200px;
-height: 290px;
-flex-shrink: 0;
-border-radius: 119.5px;
-background: #5D34FF;
-margin-left: 20px;
 display: flex;
-flex-direction: column;
-}
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}  
+
+
+
+.cicleTwoo img{
+    width: 120px;
+    opacity: 0.5;
+    }
+
+  .cicleTrhee{
+    width: 250px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 119.5px;
+    background: #5D34FF;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    
+
+
+.cicleTrhee img{
+      width: 70px;
+      opacity: 0.5;
+      margin-right: 5px;
+      }
+      
 
 
 .cicleOne img:hover{
@@ -142,6 +155,7 @@ flex-direction: column;
       opacity: 1;
       
       }
+
 
       .cicleTrhee img:hover{
           opacity: 1;
@@ -186,3 +200,114 @@ flex-direction: column;
       transform: translateY(0px); 
     }
   }
+
+  /* Tablet */
+@media only screen and (max-width: 768px) {
+
+  .MainBothElements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    height: 300px;
+    margin-top: 70px;
+}
+
+.HelpTo{
+  width: 100%;
+  margin-top: 40px;
+  height: 250px;
+}
+
+.HelpTo h1{
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  
+  }
+  
+  .textChange{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #line{
+width: 100%;
+display: flex;
+margin-right: 0px;
+justify-content: center;
+  }
+  .PhotosMain{
+width: 100%;
+  }
+
+  .ImagesElements{
+    width: 100%;
+  }
+  .MainBothElements{
+    margin-bottom: 600px;
+  }
+
+  .topRigthPhoto{
+   width: 150px;
+   height: 150px;
+}
+
+.cicleOne{
+  width: 150px;
+  height: 150px;
+}
+
+
+.MidleRigthPhoto{
+  width: 150px;
+  height: 150px;
+}
+
+.cicleTwoo{
+  width: 150px;
+  height: 150px;
+}
+
+
+.DownLeftPhoto{
+  width: 150px;
+height: 150px;
+}
+
+.cicleTrhee{
+  width: 150px;
+  height: 150px;
+}
+
+.cicleTrhee img{
+  width: 45px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 915px) {
+
+  .MainBothElements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 850px;
+}
+
+.HelpTo{
+  width: 100%;
+  margin-top: 40px;
+  height: 250px;
+  margin-bottom: 130px;
+}
+
+.PhotosMain{
+  width: 100%;
+}
+
+}
+

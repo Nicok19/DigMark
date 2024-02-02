@@ -53,7 +53,7 @@ const CardCarousel = () => {
         <div className="cardCarousel">
         
         <div className='buttonCarrusel'>
-        <button  id="nextButton" onClick={handlePrevious}>&#8594;</button>
+        <button  id="nextButton" onClick={handlePrevious}> Next &#8594;</button>
         </div>
             <div className="card-container">
                 <Card {...cards[currentIndex]} />
