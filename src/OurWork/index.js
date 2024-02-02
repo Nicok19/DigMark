@@ -28,6 +28,7 @@ return(
 </div>
 
 
+
 <div className="pals">
 <h2>Companies we Work with</h2>
 <img src="/Elements/adobe.png"  alt="Adobe Logo" />
