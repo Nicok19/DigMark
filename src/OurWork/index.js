@@ -12,17 +12,19 @@ return(
 <div className="allBrands">
 
 <div id="productDescription">
-<img src="/Elements/apple.png"  alt="Proyecto Apple" />
+<img src="https://i.imgur.com/svsEwoG.jpg" alt="Proyect of Apple" />
+
 <h3>Apple</h3>
 </div>
 
 <div id="productDescription">
-<img src="/Elements/CocaCola.png"  alt="proyecto CocaCola" />
+<img src="https://i.imgur.com/PQpkasO.jpg" alt="proyect of CocaCola" />
 <h3>Coca-Cola</h3>
 </div>
 
 <div id="productDescription">
-<img src="/Elements/Nike.png"  alt="proyecto CocaCola" />
+<img src="https://i.imgur.com/SAoU42Y.jpg" alt="proyect of Nike" />
+
 <h3>Nike</h3>
 </div>
 </div>
