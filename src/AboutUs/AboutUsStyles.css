@@ -7,8 +7,7 @@ margin-top: 460px;
 .TextAbout h1{
 font-size: 50px;
 font-weight: 550;
-margin-bottom: 15px
-;
+margin-bottom: 15px;
 }
 
 .TextAbout{
@@ -205,4 +204,28 @@ height: 150px;
       font-size: 14px; 
       text-align: center;
     }
+}
+
+/* Cellphone */
+@media only screen and (max-width: 480px) {
+
+
+.reference{
+  padding-top: 50px;
+}
+
+.cardText{
+  font-size: 11px;
+}
+
+
+}
+
+
+@media screen and (min-device-width: 1600px) and (max-device-width: 1921px) {
+
+  .elementsCards{
+    padding-top: 100px;
+  }
+ 
 }
