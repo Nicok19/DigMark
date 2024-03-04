@@ -7,7 +7,7 @@ const References = () =>{
 
 
     return(
-        <div>
+        <div className="reference">
         <div className="CarrouselsDiv">
         <h2>References</h2>
             <CardCarousel />
