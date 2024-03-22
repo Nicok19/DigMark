@@ -185,6 +185,7 @@ text-transform: capitalize;
                 float: none;
                 margin-bottom: 20px;
             }
+            
              
             .CarrouselsDiv > h2{
              margin-bottom: 30px;
@@ -245,8 +246,30 @@ text-transform: capitalize;
 
 
                 #nextButton{
+                    color: rgba(0, 0, 0, 0.80);
                     font-size: 18px;
-                    margin-top: 20px;
+                    font-style: normal;
+                    font-weight: lighter;
+                    padding: 10px;
+                    border-radius: 30px;
+                    background-color:var(--color-primary);
+                    color: white;
+                    border: none;
+                    float: none;
+                    margin-bottom: 20px;}
+
+                #nextButton:active{
+                    color: rgba(0, 0, 0, 0.80);
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: lighter;
+                    padding: 10px;
+                    border-radius: 30px;
+                    background-color:var(--color-primary);
+                    color: white;
+                    border: none;
+                    float: none;
+                    margin-bottom: 20px;
                 }
 
                 .ObjectCard img{
