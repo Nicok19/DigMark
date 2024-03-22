@@ -48,13 +48,13 @@ margin-bottom: 50px;
     padding-top: 10px;
   }
   
-  .cardTitle {
+  #cardTitle {
     font-size: 20px; 
     margin-bottom: 10px;
     font-weight: 400; 
   }
   
-  .cardText {
+  #cardText {
     font-size: 14px; 
   }
   
@@ -214,9 +214,27 @@ height: 150px;
   padding-top: 50px;
 }
 
-.cardText{
+#cardText{
   font-size: 11px;
+  text-align: center;
 }
+
+#cardTitle{
+  text-align: center;
+  font-weight: medium;
+  color: #3461FF;
+}
+
+.cardbody{
+  margin-bottom: 30px;
+}
+
+
+.imgCard{
+  display: none;
+}
+
+
 
 
 }

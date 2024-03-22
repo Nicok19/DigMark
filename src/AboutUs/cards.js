@@ -7,8 +7,8 @@ const Card = ({ title, text, imageUrl }) => (
     <img src={process.env.PUBLIC_URL + imageUrl} alt="Imagen" />
     </div>
     <div className="cardbody">
-      <h5 className="cardTitle">{title}</h5>
-      <p className="cardText">{text}</p>
+      <h5 id="cardTitle">{title}</h5>
+      <p id="cardText">{text}</p>
     </div>
   
   </div>
