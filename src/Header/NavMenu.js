@@ -9,7 +9,7 @@ const NavMenu = () => {
   };
 
   const handleMenuItemClick = () => {
-    setIsOpen(false); // Cierra el menú cuando se hace clic en un elemento del menú
+    setIsOpen(false); 
   };
 
   return (

@@ -32,8 +32,8 @@ function Counter({ maxCount }) {
   }, [count, maxCount, isInView]);
 
   return (
-    <div id="counterSection" style={{ marginTop: '10vh' }}>
-      <h1 id ="counterElements">{count}+</h1>
+    <div className="counterSection" style={{ marginTop: '10vh' }}>
+      <h1 className ="counterElements">{count}+</h1>
     </div>
   );
 }

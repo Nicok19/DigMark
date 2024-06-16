@@ -1,5 +1,6 @@
 import React from 'react';
 import './MainSectionStyles.css';
+import './Responsive__mainSectionStyles.css';
 import ImageSection from './ImagesMainSection';
 import ChangeWords from './ChangeWords'; 
 
@@ -9,7 +10,7 @@ const FirstSection = () => {
     <div className='MainBothElements'>
 
       <div className='HelpTo'>
-        <h1>We help <br/>you to:</h1>
+        <h1 className='HelpTo__text'>We help <br/>you to:</h1>
         <ChangeWords/>
       </div>
 

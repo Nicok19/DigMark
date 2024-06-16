@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const ChangeWords = () => {
   const [text, setText] = useState('');
-  const [words, setWords] = useState(['Get Clients', 'Sale More', 'Get Followers']);
+  const [words] = useState(['Get Clients', 'Sale More', 'Get Followers']);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -17,11 +17,11 @@ const ChangeWords = () => {
       });
     }, 500);
 
-    
     return () => clearInterval(interval);
-  }, [currentIndex]); 
+  }, [currentIndex, words]); 
 
   return <div className='textChange'>{text}</div>;
 };
 
 export default ChangeWords;
+

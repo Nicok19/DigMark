@@ -1,15 +1,23 @@
 
-.PhaderCounterText{
-margin-bottom: 160px;
+.PhaderCounter{
+padding-bottom: 10rem;
+width: 75%;
+margin: auto;
+margin-top: 5rem;
 }
 
-#counterDiv{
+.PhaderCounter__text{
+
+  margin-top: 50px;
+}
+
+.counterDiv{
     width: 25%;  
 }
 
-#counterDiv p{
+.counterDiv__paragraph{
    text-align: center;  
-   font-size: 20px;
+   font-size: 1vw;
    margin-top: 7px;
 }
 
@@ -19,9 +27,9 @@ margin-bottom: 160px;
   flex-direction: row;
 }
 
-#counterElements{
+.counterElements{
 text-align: center;
-font-size: 55px;
+font-size: 4vw;
 }
 
 .counterText h2{
@@ -30,36 +38,6 @@ font-size: 30px;
 font-weight: normal;
 
 }
-
-  /* Tablet */
-  @media only screen and (max-width: 768px) {
-    .PhaderCounterText{
-      margin-bottom: 100px;
-    }
-    #counterDiv{
-      width: 100%;  
-    }
-    #counterDiv p{
-      text-align: center;  
-      font-size: 20px;
-      margin-top: 7px;
-    }
-    .allCounters{
-      display: flex;
-      flex-direction: column;
-    }
-    #counterElements{
-      text-align: center;
-      font-size: 55px;
-    }
-    .counterText h2{
-      margin-top: 95px; 
-      font-size: 30px;
-      font-weight: normal;
-      text-align: center;
-    }
-  
-  }
 
 
   

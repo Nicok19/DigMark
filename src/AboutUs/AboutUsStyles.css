@@ -1,20 +1,32 @@
 
-.elementsCards{
-margin-top: 460px;
-
+/* General Elements */
+.generalContainer{
+  width: 75%;
+  margin: auto;
+  margin-top: 15vh;
 }
 
-.TextAbout h1{
-font-size: 50px;
+.generalContainer__text{
+  margin-bottom: 50px;
+  }
+  
+.generalContainer__title{
+font-size: 2.5rem;
 font-weight: 550;
-margin-bottom: 15px;
+margin-bottom: 1rem;
 }
 
-.TextAbout{
-margin-bottom: 50px;
-
+.generalContainer__paragraph{
+font-size: 1rem;
+margin-top: 2rem;
 }
 
+
+/* Cards */
+
+.elementsCards{
+  margin-top: 4rem;
+  }
 
 .card-container {
     display: flex;
@@ -49,7 +61,7 @@ margin-bottom: 50px;
   }
   
   #cardTitle {
-    font-size: 20px; 
+    font-size: 1.3rem; 
     margin-bottom: 10px;
     font-weight: 400; 
   }
@@ -57,193 +69,20 @@ margin-bottom: 50px;
   #cardText {
     font-size: 14px; 
   }
-  
-    /* Phone */
-@media only screen and (max-width: 768px) {
-
-  .MainBothElements {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    height: 300px;
-    margin-top: 70px;
-}
-
-.HelpTo{
-  width: 100%;
-  margin-top: 40px;
-  height: 250px;
-}
-
-.HelpTo h1{
-  font-weight: 400;
-  font-size: 60px;
-  text-align: center;
-  
-  }
-  
-  .textChange{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  #line{
-width: 100%;
-display: flex;
-margin-right: 0px;
-justify-content: center;
-  }
-  .PhotosMain{
-width: 100%;
-  }
-
-  .ImagesElements{
-    width: 100%;
-  }
-  .MainBothElements{
-    margin-bottom: 600px;
-  }
-
-  .topRigthPhoto{
-   width: 150px;
-   height: 150px;
-}
-
-.cicleOne{
-  width: 150px;
-  height: 150px;
-}
-
-
-.MidleRigthPhoto{
-  width: 150px;
-  height: 150px;
-}
-
-.cicleTwoo{
-  width: 150px;
-  height: 150px;
-}
-
-
-.DownLeftPhoto{
-  width: 150px;
-height: 150px;
-}
-
-.cicleTrhee{
-  width: 150px;
-  height: 150px;
-}
-
-.cicleTrhee img{
-  width: 45px;
-}
-
-}
-
-
-/* Tablet */
-@media only screen and (max-width: 768px) {
-  .elementsCards{
-    margin-top: 100px;
-  }
-  .TextAbout h1{
-    font-size: 30px;
-    font-weight: 550;
-    margin-bottom: 15px;
-    text-align: center;
-  }
-  
-  .TextAbout{
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  
-  .card-container {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-    
-    .customCard {
-      width: calc(100% - 10px); 
-      margin-bottom: 20px;
-      display: flex; 
-      align-items: center; 
-    }
-    
-    .imgCard {
-      width: 15%; 
-    }
-    
-    .imgCard img {
-      margin-top: 40px;
-      width: 100%; 
-      height: auto; 
-      border-top-left-radius: 8px; 
-      border-bottom-left-radius: 8px; 
-    }
-    
-    .cardbody {
-      flex: 1; 
-      padding: 20px; 
-      padding-bottom: 0px;
-      padding-top: 10px;
-    }
-    
-    .cardTitle {
-      font-size: 20px; 
-      margin-bottom: 10px;
-      font-weight: 400; 
-      text-align: center;
-    }
-    
-    .cardText {
-      font-size: 14px; 
-      text-align: center;
-    }
-}
-
-/* Cellphone */
-@media only screen and (max-width: 480px) {
-
-
-.reference{
-  padding-top: 50px;
-}
-
-#cardText{
-  font-size: 11px;
-  text-align: center;
-}
-
-#cardTitle{
-  text-align: center;
-  font-weight: medium;
-  color: #3461FF;
-}
-
-.cardbody{
-  margin-bottom: 30px;
-}
-
-
-.imgCard{
-  display: none;
-}
 
 
 
 
-}
 
 
-@media screen and (min-device-width: 1600px) and (max-device-width: 1921px) {
 
-  .elementsCards{
-    padding-top: 100px;
-  }
- 
-}
+
+
+
+
+
+
+
+
+
+

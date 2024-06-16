@@ -29,7 +29,8 @@
 }
 
 .menuElements a {
-  margin-right: 15px;
+  margin-right: 1.5rem;
+  font-size: 1.2vw;
 }
 
 .menuElements a:hover {
@@ -57,67 +58,6 @@
   background-color: #333;
   margin: 6px 0;
 }
-
-/* Tablet */
-@media only screen and (max-width: 768px) {
-  .hamburger-icon {
-    display: block; 
-  }
-
-  .menu-items {
-    display: none; 
-    flex-direction: column; 
-    background-color: #fff; 
-    position: absolute; 
-    top: 60px; 
-    left: 0;
-    right: 0;
-    padding: 20px;
-  }
-
-  
-  .scrollElements.open .menu-items {
-    display: flex;
-
-  }
-
-  .buttonComeBack{
-    font-size: 20px;
-  }
-
-  .menuElements a {
-    margin-right: 15px;
-    font-size: 20px;
-    margin-top: 23px;
-  }
-  
-  .menuElements a:active {
-    color: black;
-    font-weight: bold; 
-    font-size: 25px;
-  }
-  
-}
-
-@media only screen and (min-width: 768px) and (max-width: 915px) {
-
-
-  .menuElements a {
-    margin-right: 10px;
-    font-size: 13px;
-    margin-top: 23px;
-  }
-  
-  .menuElements a:active {
-    color: black;
-    font-weight: bold; 
-    font-size: 25px;
-  }
-}
-
-
-
-  
 
 
 

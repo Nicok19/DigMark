@@ -1,6 +1,7 @@
 import React from "react";
 import NavMenu from "./NavMenu";
 import './HeaderStyles.css';
+import './Responsive__HeaderStyles.css';
 import Popup from "../Modals";
 import ScrollToTop from "./ScrollUp";
 

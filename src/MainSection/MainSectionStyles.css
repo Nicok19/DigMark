@@ -1,319 +1,102 @@
 
-.MainBothElements{
-    display: flex;
-    flex-direction: row;
-    height: 300px;
-    margin-top: 70px;
+ /* General elements*/
+
+ .MainBothElements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(135deg, #1ba977, #3461FF);
+  background-size: 200% 200%;
+  animation: cambio-color 5s infinite;
 }
+
+@keyframes cambio-color {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+
+ /* text*/
 
 .HelpTo{
-width: 50%;
-margin-top: 120px;
+width: 35%;
+margin-top: 0px;
+margin-left:12% ;
 }
 
-.HelpTo h1{
+.HelpTo__text{
 font-weight: 400;
-font-size: 100px;
-
+font-size: 5vw;
+color:bisque;
+font-weight: bold;
 }
 
-.PhotosMain{
-    width: 50%;
-    height: 300px;
-    margin-top: 30px;
-}
 
 .textChange{
 color:var(--color-primary);
-font-size: 70px;
+font-size: 3vw;
 font-weight: 700;
-margin-top: 30px;
+margin-top: 2rem;
 font-weight: 500;
+height: 30px;
+color: var(--color-background, #FAFAFA);
 }
 
-.ImagesElements img{
-width: 43%;
-}
+ /*images*/
 
-.ImagesElements{
-    display: flex;
-    flex-wrap: wrap; 
-    align-items: center;
-}
-
-#line{
-display: flex;
-flex-direction: row;
-margin-bottom: 15px;
-}
-
-
-.topRigthPhoto{
-    animation-name: upToBotton; 
-    animation-duration: 1s; 
-    animation-timing-function: ease; 
-    animation-iteration-count: 1;
-}
-
-
-.MidleRigthPhoto{
-    animation-name: moveRight; 
-    animation-duration: 2.5s; 
-    animation-timing-function: ease; 
-    animation-iteration-count: 1;
-}
-
-
-.DownLeftPhoto{
-    animation-name: BottonToUp; 
-    animation-duration: 2.5s; 
-    animation-timing-function: ease; 
-    animation-iteration-count: 1;
-    width: 240px;
-height: 200px;
-}
-
-.cicleOne{
-  width: 200px;
-  height: 200px;
-  flex-shrink: 0;
+.imagesElements{
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap; 
   align-items: center;
-  border-radius: 119.5px;
-  background: linear-gradient(0deg, #3461FF 0%, #3461FF 100%), #000;
-  margin-left: 20px;
-  animation-name: moveRight; 
-  animation-duration: 1.5s; 
-  animation-timing-function: ease; 
-  animation-iteration-count: 1;
+}
 
+
+.imagesElements__laptop {
+  width: 35vw;
+  margin-left: 50px;
+  position: absolute;
+  animation: slideInFromLeft 2s ease-out forwards;
+  z-index: 30;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
   }
-
-.cicleOne a{
-  width: 80px;
-}
-
-.cicleOne img{
-width: 80px;
-opacity: 0.5;
-}
-
-
-.cicleTwoo{
-  border-radius: 119.5px;
-  background: #5D34FF;
-  width: 201.758px;
-  height: 159.062px;
-  margin-right: 20px;
-  animation-name: moveRightTwoo; 
-animation-duration: 2s; 
-animation-timing-function: ease; 
-animation-iteration-count: 1;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-}  
-
-
-
-.cicleTwoo img{
-    width: 120px;
-    opacity: 0.5;
-    }
-
-  .cicleTrhee{
-    width: 250px;
-    height: 200px;
-    flex-shrink: 0;
-    border-radius: 119.5px;
-    background: #5D34FF;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    }
-    
-
-
-.cicleTrhee img{
-      width: 70px;
-      opacity: 0.5;
-      margin-right: 5px;
-      }
-      
-
-
-.cicleOne img:hover{
-  opacity: 1;
+  100% {
+    transform: translateX(0);
   }
-
-  .cicleTwoo img:hover{
-      opacity: 1;
-      
-      }
+}
 
 
-      .cicleTrhee img:hover{
-          opacity: 1;
-          
-          }
 
-@keyframes moveRight {
-    0% {
-      transform: translateX(400px); 
-    }
-    100% {
-      transform: translateX(0px); 
-    }
+.imagesElements__celular {
+  width: 13vw;
+  position: relative;
+  z-index: 31;
+  animation: slideInFromLeftCelular 2s ease-out forwards;
+}
+
+@keyframes slideInFromLeftCelular {
+  0% {
+    transform: translateX(100%);
   }
-
-
-
-  @keyframes moveRightTwoo {
-    0% {
-      transform: translateX(800px); 
-    }
-    100% {
-      transform: translateX(0px); 
-    }
+  100% {
+    transform: translateX(0);
   }
-
-
-  @keyframes upToBotton {
-    0% {
-      transform: translateY(-400px); 
-    }
-    100% {
-      transform: translateY(0px); 
-    }
-  }
-
-  @keyframes BottonToUp {
-    0% {
-      transform: translateY(400px); 
-    }
-    100% {
-      transform: translateY(0px); 
-    }
-  }
-
-  /* Tablet */
-@media only screen and (max-width: 768px) {
-
-  .MainBothElements {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    height: 300px;
-    margin-top: 70px;
-}
-
-.HelpTo{
-  width: 100%;
-  margin-top: 40px;
-  height: 250px;
-}
-
-.HelpTo h1{
-  font-weight: 400;
-  font-size: 60px;
-  text-align: center;
-  
-  }
-  
-  .textChange{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  #line{
-width: 100%;
-display: flex;
-margin-right: 0px;
-justify-content: center;
-  }
-  .PhotosMain{
-width: 100%;
-  }
-
-  .ImagesElements{
-    width: 100%;
-  }
-  .MainBothElements{
-    margin-bottom: 600px;
-  }
-
-  .topRigthPhoto{
-   width: 150px;
-   height: 150px;
-}
-
-.cicleOne{
-  width: 150px;
-  height: 150px;
 }
 
 
-.MidleRigthPhoto{
-  width: 150px;
-  height: 150px;
-}
-
-.cicleTwoo{
-  width: 150px;
-  height: 150px;
-}
 
 
-.DownLeftPhoto{
-  width: 150px;
-height: 150px;
-}
 
-.cicleTrhee{
-  width: 150px;
-  height: 150px;
-}
 
-.cicleTrhee img{
-  width: 45px;
-}
-
-}
-
-@media only screen and (min-width: 768px) and (max-width: 915px) {
-
-  .MainBothElements {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: center;
-    height: 300px;
-    margin-top: 70px;
-    margin-bottom: 850px;
-}
-
-.HelpTo{
-  width: 100%;
-  margin-top: 40px;
-  height: 250px;
-  margin-bottom: 130px;
-}
-
-.PhotosMain{
-  width: 100%;
-}
-
-}
-
-@media screen and (min-device-width: 1600px) and (max-device-width: 1920px) {
-
-  .MainBothElements{
- margin-top: 350px;
-}
-
-}

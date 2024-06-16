@@ -1,0 +1,25 @@
+# NavMenu.js Documentation
+
+This file defines a `NavMenu` component using React. 
+
+## Imports
+
+- `React` and `useState` are imported from the `react` package.
+- `Link` is imported from the `react-scroll` package.
+
+## State
+
+- `isOpen` is a state variable that tracks whether the navigation menu is open or not. It is initialized to `false`.
+
+## Functions
+
+- `toggleMenu` is a function that toggles the `isOpen` state. When invoked, it sets `isOpen` to its opposite value.
+- `handleMenuItemClick` is a function that sets `isOpen` to `false`. This function can be used to close the menu when a menu item is clicked.
+
+## Return
+
+The component returns a `div` element with the class `scrollElements`. If `isOpen` is `true`, the `open` class is also added.
+
+Inside this `div`, there is another `div` with the class `hamburger-icon`. This `div` has an `onClick` handler that calls the `toggleMenu` function when the `div` is clicked. This `div` represents the hamburger icon that users can click to open or close the menu.
+
+There are two more `div` elements inside the `hamburger-icon` `div`, each with the class `line`. These `div` elements represent the lines in the hamburger icon.
