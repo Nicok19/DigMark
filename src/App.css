@@ -1,11 +1,10 @@
-#generalOptions{
-width: 75%;
-margin: auto;
-}
+
 
 :root {
     --color-primary: #3461FF;
     --color-secondary: #000000;
+    --color-tertiary: #FFFFFF;
+    --color-background: #FAFAFA;
   }
   
 

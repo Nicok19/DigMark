@@ -1,0 +1,20 @@
+Documentation for ChangeWords.js
+
+ChangeWords.js is a JavaScript module that exports a React component. This component is responsible for changing the text displayed on the screen at regular intervals.
+
+Here's a breakdown of the code:
+
+}, 500);
+This is the end of a setInterval function that is not fully shown in the provided code. The function is set to execute every 500 milliseconds.
+
+return () => clearInterval(interval);
+This is a cleanup function that will be run when the component unmounts. It clears the interval that was set up, preventing memory leaks.
+
+[currentIndex, words]);
+These are the dependencies for the useEffect hook. The effect will re-run whenever currentIndex or words changes.
+
+return <div className='textChange'>{text}</div>;
+This is the render method of the component. It returns a div with the class textChange, and the content of the div is the current text.
+
+export default ChangeWords;
+This line exports the ChangeWords component as the default export of the module. This allows it to be imported and used in other components.
