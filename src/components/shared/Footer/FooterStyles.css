@@ -1,0 +1,89 @@
+.phader {
+    background-color: #FAFAFA;
+}
+.Phader__element {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+.socialMedia {
+    width: 50%;
+}
+.linkElements {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.links button {
+    display: block;
+    background-color: transparent;
+    border: none;
+    margin-top: 1rem;
+}
+.links button:hover {
+    color: #3461FF;
+    cursor: pointer;
+}
+.socialMedia__title {
+    color: #3461FF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 36.563px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.59px;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+.imageSocialMedia__image {
+    width: 28px;
+    margin-right: 22px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.bottonFooter {
+    background-color: #3461FF;
+}
+.BottonFooter__title {
+    width: 75%;
+    margin: auto;
+    width: 50vw;
+}
+.BottonFooter__title p {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 1vw;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

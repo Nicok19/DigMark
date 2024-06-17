@@ -1,0 +1,83 @@
+
+/* General Elements */
+.generalContainer{
+  width: 75%;
+  margin: auto;
+  margin-top: 15vh;
+}
+
+.generalContainer__text{
+  margin-bottom: 50px;
+  }
+  
+
+.generalContainer__paragraph{
+font-size: 1rem;
+margin-top: 2rem;
+}
+
+
+/* Cards */
+
+.elementsCards{
+  margin-top: 4rem;
+  }
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .customCard {
+    width: calc(50% - 10px); 
+   
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .imgCard {
+    width: 15%; 
+  }
+  
+  .imgCard img {
+    margin-top: 40px;
+    width: 100%; 
+    height: auto; 
+    border-top-left-radius: 8px; 
+    border-bottom-left-radius: 8px; 
+  }
+  
+  .cardbody {
+    flex: 1; 
+    padding: 20px; 
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+  
+  #cardTitle {
+    font-size: 1.3rem; 
+    margin-bottom: 10px;
+    font-weight: 400; 
+  }
+  
+  #cardText {
+    font-size: 14px; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

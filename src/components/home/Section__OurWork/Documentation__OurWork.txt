@@ -1,0 +1,24 @@
+# OurWork.js Documentation
+
+This file defines a React component that displays a list of products.
+
+## State
+
+- `hoveredProduct` is a state variable that tracks the currently hovered product. It is initialized to `null`.
+
+## Event Handlers
+
+- `onMouseEnter` sets `hoveredProduct` to the index of the product being hovered.
+- `onMouseLeave` sets `hoveredProduct` back to `null`.
+
+## Rendering
+
+The component renders a `div` element. Inside this `div`, it maps over a list of products and for each product, it renders another `div` with the class `productDescription`.
+
+Inside the `productDescription` `div`, it checks if `hoveredProduct` is equal to the current product's index. If it is, it renders an `img` element with the product's `hoverImgSrc` as the `src` and a descriptive `alt` text. If it's not, it renders an `img` element with the product's `imgSrc` as the `src` and a descriptive `alt` text.
+
+Below the `img` element, it renders an `h3` element with the product's name.
+
+## Export
+
+The component is exported as a default export.

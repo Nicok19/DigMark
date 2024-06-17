@@ -1,0 +1,25 @@
+/* Tablet */
+@media only screen and (max-width: 780px) {
+
+    .photoContact {
+        display: none;
+     }
+
+     .contactForm {
+        margin-left: 0%;
+    }
+    
+     .contactForm {
+        width: 70%;
+        margin: auto;
+    }
+    
+ 
+    .contactElements {
+        margin-bottom: 70px;
+    }
+    
+
+    
+    }
+    

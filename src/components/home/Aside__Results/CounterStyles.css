@@ -1,0 +1,42 @@
+
+.PhaderCounter{
+padding-bottom: 10rem;
+width: 75%;
+margin: auto;
+margin-top: 5rem;
+}
+
+.PhaderCounter__text{
+  margin-top: 50px;
+}
+
+.counterDiv{
+    width: 25%;  
+}
+
+.counterDiv__paragraph{
+   text-align: center;  
+   font-size: 1vw;
+   margin-top: 7px;
+}
+
+
+.allCounters{
+  display: flex;
+  flex-direction: row;
+}
+
+.counterElements{
+text-align: center;
+font-size: 4vw;
+}
+
+.counterText h2{
+margin-top: 95px; 
+font-size: 30px;
+font-weight: normal;
+
+}
+
+
+  
