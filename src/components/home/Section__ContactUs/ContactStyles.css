@@ -1,0 +1,82 @@
+
+
+.contactElements {
+    display: flex;
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.contactPhotoAndForm {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.contactForm {
+    width: 35%; 
+    margin-left: 15%;
+}
+
+.photoContact {
+    width: 40vw;
+    height: 65vh;
+    margin-left: auto; 
+    margin-top: 2rem;
+}
+
+
+.contactForm input{
+width: 100%;
+}
+
+
+
+#inputStyle,
+.inputStyleBox {
+    width: 100%;
+    height: 10vh;
+    border-radius: 20px;
+    border: 1px solid #3461FF;
+    display: flex;
+    padding: 20px 18px;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputStyleBox{
+    height: 20vh;
+}
+
+.formInputs__button{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    padding: 30px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: #3461FF;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 4vh;
+    margin-top: 1vh;
+}
+
+.formInputs__button:hover{
+    cursor: pointer;
+    background:white;
+    border: #3461FF 1px solid;
+    color: #3461FF;
+}
+
+.formInputs__button:active{
+    background:black;
+    color: white;
+}
+
+
+ 

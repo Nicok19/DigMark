@@ -1,0 +1,66 @@
+
+      
+      /* Tablet */
+      @media only screen and (max-width: 768px) {
+
+      
+            .popup__imgAndButton{
+              width: 1px;
+            }
+      
+      
+            .popup__image{
+              width: 0px;
+                }
+      
+                .popup__button{
+                  box-shadow: 1px 1px 2px black;
+                }
+      
+      
+                .popup__content {
+                  text-align: center;
+                  display: flex;
+                  width: 350px;
+                }
+      
+                .inputPopUp__button {
+                  width: 70%;
+                  margin: auto;
+                  display: flex;
+                  padding: 6px 12px;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 10px;
+                  border-radius: 20px;
+                  background: #3461FF;
+                  border: none;
+                  margin-top: 10px;
+                  color: white;
+                  font-size: 13px;
+                        }
+
+
+                        .BookCall{
+                            border-radius: 70PX;
+                            background-color: var(--color-primary);
+                            color: white;
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            padding-left: 12px;
+                            padding-right: 12px;
+                            border: none;
+                            font-size: 12px;
+                            font-style: normal;
+                          
+                            }
+                            .BookCall:hover{
+                                border-radius: 70PX;
+                                background-color: var(--color-secundary);
+                                color: var(--color-primary);
+                                border: 1px solid var(--color-primary);
+                                }
+      
+      }
+      
+     

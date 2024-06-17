@@ -1,0 +1,24 @@
+
+
+/* celular */
+@media screen and (max-width: 480px) {
+    .allProjects {
+        display: flex;
+        flex-direction: column; 
+      }
+
+      .productDescription{
+        margin-bottom: 2rem;
+      }
+
+      .carousel-image{
+        width: 50vw;
+        display: flex;
+        margin-left: 2.6rem;
+       
+
+      }
+      
+      
+      
+}

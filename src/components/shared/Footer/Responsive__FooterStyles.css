@@ -1,0 +1,46 @@
+
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+    .Phader__element {
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMedia {
+        width: 100%;
+        text-align: center;
+    }
+    .linkElements {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .links button {
+        font-size: 12px; 
+    }
+
+
+    .imageSocialMedia__image {
+        margin-bottom: 40px;
+    }
+    .socialMedia__title {
+        margin-top: 60px;
+    }
+    .BottonFooter__title p {
+        text-align: center;
+        font-size: 0.7rem;
+    }
+}
+
+
+

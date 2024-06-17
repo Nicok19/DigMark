@@ -1,0 +1,67 @@
+/* general */
+.greyBackground {
+  background-color: #FAFAFA; 
+  padding-bottom: 40px;
+}
+
+.definitionOurWork {
+  width: 75%;
+  margin: auto;
+}
+
+.definitionOurWork__paragraph {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+/* ourWork */
+
+.productDescription img {
+  width: 90%;
+  margin-right: 20px;
+  transition: opacity 2s ease; 
+}
+
+.productDescription h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.allProjects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+/* Brands */
+
+.carousel__title{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+}
+
+.carousel-image{
+  width: 12vw;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
