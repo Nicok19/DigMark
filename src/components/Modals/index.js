@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import './modalStyles.css'; 
-import './Responsive__modalStyles.css'; 
+import './Styles/modalStyles.css'; 
+import './Styles/Responsive__modalStyles.css'; 
 
 const Popup = () => {
   const [isOpen, setIsOpen] = useState(false);
