@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
-import Menu from '../../components/shared/Header';
-import FirstSection from '../../components/home/Section__MainSection';
-import AboutUs from '../../components/home/Section__AboutUs';
-import Results from '../../components/home/Aside__Results';
-import OurProducts from '../../components/home/Section__OurWork';
-import References from '../../components/home/Section__References';
-import Contact from '../../components/home/Section__ContactUs';
-import Footer from '../../components/shared/Footer/Index';
+
+import Menu from '../../components/Header';
+import Footer from '../../components/Footer/Index';
+
+import FirstSection from '../home/Section__MainSection/index';
+import AboutUs from '../home/Section__AboutUs/index';
+import Results from '../home/Aside__Results/index';
+import OurProducts from '../home/Section__OurWork/index';
+import References from '../home/Section__References/index';
+import Contact from '../home/Section__ContactUs/index';
+
 
 
 function App() {

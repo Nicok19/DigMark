@@ -1,10 +1,12 @@
 import React from "react";
-import Revenues from "./Revenues";
-import Audience from "./Audience";
-import Brands from "./Brands";
-import Awards from "./Awards";
-import './CounterStyles.css';
-import './Responsive__CounterStyles.css';
+import Revenues from "./Data/Revenues";
+
+import Audience from "./Data/Audience";
+import Brands from "./Data/Brands";
+import Awards from "./Data/Awards";
+
+import './Styles/CounterStyles.css';
+import './Styles/Responsive__CounterStyles.css';
 
 
 const Results = () => {

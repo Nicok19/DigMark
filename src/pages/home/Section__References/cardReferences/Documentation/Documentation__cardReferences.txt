@@ -1,0 +1,45 @@
+// Card Component Documentation
+
+This React component, `Card`, represents a simple card layout displaying an image, title, subtitle, and paragraph. It accepts props for these elements and arranges them in a visually appealing format.
+
+## Card Component
+
+### Props
+- `image` (string): The URL of the image to be displayed.
+- `title` (string): The title text for the card.
+- `subtitle` (string): The subtitle text for the card.
+- `paragraph` (string): The paragraph text providing more information.
+
+### Return
+- Renders a `<div>` with class `ObjectCard` containing:
+  - An `<img>` element within a `<div>` with class `cardImg` for displaying the image.
+  - A `<div>` with class `cardText` containing:
+    - An `<h2>` element with class `cardText__title` for displaying the title.
+    - An `<h3>` element with class `cardText__subtitle` for displaying the subtitle.
+    - A `<p>` element with class `cardText__paragraph` for displaying the paragraph text.
+
+// CardCarousel Component Documentation
+
+The `CardCarousel` component manages a carousel of `Card` components, allowing users to navigate through different cards.
+
+## CardCarousel Component
+
+### State
+- `cards` (array): An array of card objects, each containing `image`, `title`, `subtitle`, and `paragraph` properties.
+- `currentIndex` (number): The index of the currently displayed card.
+
+### useState Hook
+- Initializes `cards` with an array of predefined card objects.
+- Manages `currentIndex` to track the currently displayed card.
+
+### Handlers
+- `handlePrevious`: Updates `currentIndex` to show the previous card in the array. Uses modular arithmetic to wrap around to the last card if at the beginning.
+
+### Return
+- Renders a `<div>` with class `cardCarousel` containing:
+  - A `<button>` element within a `<div>` with class `buttonCarrusel` for navigating to the previous card.
+  - A `<div>` with class `card-container` displaying the current card using the `Card` component.
+
+### Usage
+- Import and use `<CardCarousel />` in your application where a card carousel is needed.
+

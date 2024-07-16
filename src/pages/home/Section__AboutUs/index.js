@@ -1,8 +1,10 @@
 import React from "react";
-import FinalCard from "./cards";
-import "./AboutUsStyles.css";
-import "./Responsive__AboutUsStyles.css";
-import SectionTitle from "../../../styles/h2__Title";
+import FinalCard from "./Cards/cards";
+
+import "./Styles/AboutUsStyles.css";
+import "./Styles/Responsive__AboutUsStyles.css";
+
+import SectionTitle from "../../../components/Title/h2__Title";
 
 const AboutUs = () => {
   return (
