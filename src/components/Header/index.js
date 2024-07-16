@@ -1,9 +1,12 @@
 import React from "react";
-import NavMenu from "./NavMenu";
-import './HeaderStyles.css';
-import './Responsive__HeaderStyles.css';
+
+import './Styles/HeaderStyles.css';
+import './Styles/Responsive__HeaderStyles.css';
+
 import Popup from "../Modals";
-import ScrollToTop from "./ScrollUp";
+
+import ScrollToTop from "./Nav/ScrollUp";
+import NavMenu from "./Nav/NavMenu";
 
 const Menu = () => {
   return (
