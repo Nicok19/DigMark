@@ -1,8 +1,10 @@
 import React from "react";
-import CardCarousel from "./cardReferences";
-import './referencesStyle.css';
-import './Responsive__ReferencesStyle.css';
-import SectionTitle from "../../../styles/h2__Title";
+import CardCarousel from "./cardReferences/cardReferences";
+import './Styles/ReferencesStyle.css';
+import './Styles/Responsive__ReferencesStyle.css';
+
+
+import SectionTitle from "../../../components/Title/h2__Title";
 
 
 

@@ -1,10 +1,12 @@
 import React from "react";
-import Brands from "./brands";
-import OurProducts from "./OurWork";
-import './OurWorkStyles.css';
-import './Responsive__OurWorkStyles.css';
 
-import SectionTitle from "../../../styles/h2__Title";
+import Brands from "./Brands/brands";
+import OurProducts from "./OurWork/OurWork";
+
+import './Styles/OurWorkStyles.css';
+import './Styles/Responsive__OurWorkStyles.css';
+
+import SectionTitle from "../../../components/Title/h2__Title";
 
 const OurWork = () => {
   return (

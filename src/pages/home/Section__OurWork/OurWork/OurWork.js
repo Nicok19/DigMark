@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './OurWorkStyles.css';
+import '../Styles/OurWorkStyles.css';
 
 const products = [
   {

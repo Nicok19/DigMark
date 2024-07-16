@@ -1,0 +1,38 @@
+// File: component-documentation.txt
+
+// Counter Component Documentation
+
+This React component, `Counter`, implements a simple counter that starts counting up to a maximum value (`maxCount`) when the user scrolls down to a certain position on the page (500 pixels from the top). It uses hooks like `useState` and `useEffect` for managing state and side effects.
+
+## Counter Component
+
+### Props
+- `maxCount` (number): The maximum count value to which the counter will increment.
+
+### State
+- `count` (number): Current count value.
+- `isInView` (boolean): Indicates if the component is in view (based on scroll position).
+
+### useEffect Hooks
+
+#### Scroll Listener
+- Registers a scroll event listener when the component mounts (`useEffect(() => {...}, [])`).
+- Updates `isInView` state based on scroll position.
+
+#### Counting Logic
+- Starts counting up (`setCount`) when `isInView` becomes `true`.
+- Uses `setInterval` to increment `count` every 35 milliseconds until it reaches `maxCount`.
+- Clears the interval when counting is complete.
+
+### Return
+- Renders a `<div>` with class `counterSection` and a `<h1>` displaying the current `count` value plus a `+`.
+
+## Brands, Awards or Audience Component
+
+### Description
+- Simple functional component (`Brands, Awards, Revenue or Audience`) that renders the `Counter` component with a `maxCount` of a number.
+
+### Usage
+- Import and use `<Brands, Awards, Revenue or Audience />` in your application where needed.
+
+

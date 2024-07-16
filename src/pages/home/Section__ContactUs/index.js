@@ -1,8 +1,10 @@
 import React from "react";
-import Form from "./Form";
-import "./ContactStyles.css";
-import "./Responsive__ContactStyles.css";
-import SectionTitle from "../../../styles/h2__Title";
+import Form from "./Form/Form";
+import "./Styles/ContactStyles.css";
+import "./Styles/Responsive__ContactStyles.css";
+
+
+import SectionTitle from "../../../components/Title/h2__Title";
 
 const Contact = () =>{
 

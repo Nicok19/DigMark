@@ -1,8 +1,10 @@
 import React from 'react';
-import './MainSectionStyles.css';
-import './Responsive__mainSectionStyles.css';
-import ImageSection from './ImagesMainSection';
-import ChangeWords from './ChangeWords'; 
+
+import './Styles/MainSectionStyles.css';
+import './Styles/Responsive__mainSectionStyles.css';
+
+import ImageSection from './ImagesMainSection/ImagesMainSection';
+import ChangeWords from './ChangeWords/ChangeWords'; 
 
 
 const FirstSection = () => {
