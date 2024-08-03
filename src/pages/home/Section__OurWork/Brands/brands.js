@@ -40,14 +40,13 @@ const Brands = () => {
 
 
         <Slider {...settings}>
-          <div><img className="carousel-image" src="/Elements/adobe.png" alt="Adobe Logo" /></div>
-          <div><img className="carousel-image" src="/Elements/amazon.png" alt="Amazon Logo" /></div>
-          <div><img className="carousel-image" src="/Elements/evernote.png" alt="Evernote Logo" /></div>
-          <div><img className="carousel-image" src="/Elements/asana.png" alt="Asana Logo" /></div>
-          <div><img className="carousel-image" src="/Elements/paypal.png" alt="Paypal Logo" /></div>
-          <div><img className="carousel-image" src="/Elements/spotify.png" alt="Spotify Logo" /></div>
-          <div><img className="carousel-image" src="/Elements/shopify.png" alt="Shopify Logo" /></div>
-          <div><img className="carousel-image" src="/Elements/google.png" alt="Google Logo" /></div>
+          <div><img className="carousel-image" src="https://imgur.com/6PgBDCu.png" alt="Adobe Logo" /></div>
+          <div><img className="carousel-image" src="https://imgur.com/DCkhtLY.png" alt="Amazon Logo" /></div>
+          <div><img className="carousel-image" src="https://imgur.com/VZBod9V.png" alt="Evernote Logo" /></div>
+          <div><img className="carousel-image" src="https://imgur.com/xRYCr6O.png" alt="Asana Logo" /></div>
+          <div><img className="carousel-image" src="https://imgur.com/YBg36PC.png" alt="Paypal Logo" /></div>
+          <div><img className="carousel-image" src="https://imgur.com/4Z1sFwq.png" alt="Spotify Logo" /></div>
+          <div><img className="carousel-image" src="https://imgur.com/CxLjm95.png" alt="Google Logo" /></div>
         </Slider>
       </div>
     );

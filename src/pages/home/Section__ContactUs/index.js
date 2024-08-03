@@ -17,7 +17,7 @@ return(
 <Form/>
 </div>
 
-<img className="photoContact" src="/Elements/ContactPhoto.png" alt="Contact" />
+<img className="photoContact" src="https://imgur.com/KvAZpqb.png" alt="Contact" />
 
 
 

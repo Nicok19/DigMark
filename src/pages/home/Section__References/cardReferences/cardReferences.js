@@ -19,19 +19,19 @@ const Card = ({ image, title, subtitle, paragraph }) => {
 const CardCarousel = () => {
     const [cards] = useState([
         {
-            image: '/Elements/reference1.png',
+            image: 'https://imgur.com/bP0eaXD.png',
             title: 'Amelia Joseph',
             subtitle: 'Chief Manager - Google',
             paragraph: 'My vision came alive effortlessly. Their blend of casual and professional approach made the process a breeze. Creativity flowed, and the results were beyond my expectations.',
         },
         {
-            image: '/Elements/reference2.png',
+            image: 'https://imgur.com/P5GzNzZ.png',
             title: 'Elsa de los Santos',
             subtitle: 'Manager - Nike',
             paragraph: 'I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it',
         },
         {
-            image: '/Elements/reference3.png',
+            image: 'https://imgur.com/x5Fdqkx.png',
             title: 'Jacob Joshua',
             subtitle: 'Marketing Director - Coca Cola',
             paragraph: 'Embrace really nails it! Creative brilliance, approachable style. They are the partners you want—artistry meets strategy. Thrilled with what they achieved!',
