@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="socialMedia">
           <h4 className="socialMedia__title">DigMark</h4>
           <div className="imageSocialMedia"></div>
-          <img className="imageSocialMedia__image" src="/Elements/instagram.png" alt="instagram Logo" />
-          <img className="imageSocialMedia__image" src="/Elements/x.png" alt="x Logo" />
-          <img className="imageSocialMedia__image" src="/Elements/linkedin.png" alt="Linkedin Logo" />
-          <img className="imageSocialMedia__image" src="/Elements/youtube.png" alt="Youtube Logo" />
+          <img className="imageSocialMedia__image" src="https://imgur.com/4Oplspf.png" alt="instagram Logo" />
+          <img className="imageSocialMedia__image" src="https://imgur.com/T88hpyU.png" alt="x Logo" />
+          <img className="imageSocialMedia__image" src="https://imgur.com/cDe2S0r.png" alt="Linkedin Logo" />
+          <img className="imageSocialMedia__image" src="https://imgur.com/WV0KBIV.png" alt="Youtube Logo" />
         </div>
 
         <div className="linkElements">

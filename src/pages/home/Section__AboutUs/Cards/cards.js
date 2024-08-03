@@ -20,22 +20,22 @@ const CardContainer = () => {
     {
       title: 'Work Ethics',
       text: 'Our work ethics include integrity, honesty, responsibility, being fair and respectable. We aim to maintain our work ethics while delivering quality.',
-      imageUrl: '/Elements/icon1.png', 
+      imageUrl: 'https://imgur.com/PDTUmxg.png', 
     },
     {
       title: '24/7 Support',
       text: 'Our team is available 24/7 for support and help or to solve any query of yours. Believe in us and we’ll prove you right.',
-      imageUrl: '/Elements/icon2.png',
+      imageUrl: 'https://imgur.com/eiScttY.png',
     },
     {
       title: 'Digital Marketing',
       text: 'Online Marketing is becoming more and more competitive. We experience, learn, and implement new strategies to make you stay ahead of your competitors.',
-      imageUrl: '/Elements/icon3.png',
+      imageUrl: 'https://imgur.com/QsICs55.png',
     },
     {
       title: 'Consultancy',
       text: 'We meet with you to learn about your business, your goals, and your target audience.',
-      imageUrl: '/Elements/icon4.png',
+      imageUrl: 'https://imgur.com/GmeqhoC.png',
     },
   ];
 
