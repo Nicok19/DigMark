@@ -4,6 +4,11 @@
     .PhaderCounter{
       margin-bottom: 5px;
     }
+
+    .PhaderCounter__text{
+      text-align: center;
+    }
+
     .counterDiv{
       width: 100%;  
     }
