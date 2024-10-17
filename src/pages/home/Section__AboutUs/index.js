@@ -1,6 +1,5 @@
 import React from "react";
 import FinalCard from "./Cards/cards";
-
 import "./Styles/AboutUsStyles.css";
 import "./Styles/Responsive__AboutUsStyles.css";
 
